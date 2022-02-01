@@ -1,0 +1,7 @@
+{
+    "env": {
+        "username": "demo",
+        "password": "demo",
+        "url": "https://demo.opencart.com/admin/"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "login": {
+        "username": "#input-username",
+        "password": "#input-password",
+        "button": "#content > div > div > div > div > div.panel-body > form > div.text-right > button",
+        "salesmenu": "[href='#collapse26']",
+        "orders": "#collapse26 > :nth-child(1) > a",
+        "logout": ".nav > :nth-child(2) > a > .fa"
+    }
+}
