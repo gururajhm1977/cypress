@@ -14,11 +14,19 @@
         "cy:open": "cypress open",
         "e2e:chrome": "cypress run --browser chrome",
         "e2e:record": "cypress run --record",
-        "e2e:api": "node ./cypress/apiContractTest.js"
+        "e2e:api": "node ./cypress/apiContractTest.js",
+        "qa:smoke:scripts": "cypress run --spec cypress/integration/*.js --env ENV=qa --browser chrome",
+        "stage:smoke:scripts": "cypress run --spec cypress/integration/*.js --env ENV=staging --browser chrome",
+        "prod:smoke:scripts": "cypress run --spec cypress/integration/*.js --env ENV=production --browser chrome"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marmelab/gremlins.js"
     },
     "private": true,
     "dependencies": {
         "cypress-tags": "0.0.19",
+        "gremlins.js": "^2.2.0",
         "jquery": "^3.5.1",
         "rxjs": "~6.6.0",
         "tslib": "^2.0.0",
@@ -26,11 +34,12 @@
     },
     "devDependencies": {
         "codelyzer": "^6.0.0",
+        "cypress": "^9.4.0",
+        "cypress-audit": "^1.1.0",
+        "newman": "^5.2.2",
         "protractor": "~7.0.0",
         "ts-node": "~8.3.0",
         "tslint": "~6.1.0",
-        "typescript": "~4.0.2",
-        "cypress": "^9.4.0",
-        "newman": "^5.2.2"
+        "typescript": "~4.0.2"
     }
 }
