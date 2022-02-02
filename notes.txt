@@ -1,0 +1,3 @@
+Cypress_tags=smoke npx cypress run --env ENV=qa
+
+Cypress_tags=smoke,regression npx cypress run --env ENV=qa
