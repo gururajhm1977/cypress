@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2022-02-20T05:02:08.556Z",
+  "duration": 24329,
+  "file": "cypress/integration/browserTab.js"
+}

@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2022-02-20T05:02:57.955Z",
+  "duration": 9135,
+  "file": "cypress/integration/monkeyTesting.js"
+}

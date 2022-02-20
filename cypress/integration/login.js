@@ -9,7 +9,8 @@ TestFilters(['smoke', 'regression'], () => {
 
     describe('login page', function () {
         it('login to site...', () => {
-            cy.visit(url);
+            //cy.visit(url);
+            cy.visit("https://demo.opencart.com/admin/");
 
             cy.get(login.username).type(Cypress.env("username"));
             cy.get(login.password).type(Cypress.env("password"));
@@ -40,6 +41,23 @@ TestFilters(['smoke', 'regression'], () => {
 
             cy.get(login.logout).click();
 
+
         })
     });
+
+    it('login to site...request', () => {
+        cy.request('https://jsonplaceholder.cypress.io/comments').as('comments')
+
+        // other test code here
+
+        cy.get('@comments').should((response) => {
+            if (response.status === 200) {
+                expect(response).to.have.property('duration')
+            } else {
+                // whatever you want to check here
+            }
+        })
+    })
+
+
 });
