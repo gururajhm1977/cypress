@@ -4,5 +4,10 @@
         "username": "demo",
         "password": "demo",
         "url": "https://demo.opencart.com/admin/"
-    }
+    },
+    "testFiles": [
+        "login.js",
+        "monkeyTesting.js",
+        "browserTab.js"
+    ]
 }
