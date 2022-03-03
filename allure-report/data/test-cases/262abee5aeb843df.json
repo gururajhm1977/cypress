@@ -1,0 +1,305 @@
+{
+  "uid" : "262abee5aeb843df",
+  "name" : "Handling new Browser Tab",
+  "fullName" : "Handling new Browser Tab",
+  "historyId" : "23d4e26ec2c8059295c989e08a4162df",
+  "time" : {
+    "start" : 1646308336661,
+    "stop" : 1646308343169,
+    "duration" : 6508
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+  "statusTrace" : "CypressError: `cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task\n    at https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:162231:80\n    at tryCatcher (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (https://the-internet.herokuapp.com/__cypress/tests?p=cypress/support/index.js:12541:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+    "statusTrace" : "CypressError: `cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task\n    at https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:162231:80\n    at tryCatcher (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (https://the-internet.herokuapp.com/__cypress/tests?p=cypress/support/index.js:12541:10)",
+    "steps" : [ {
+      "name" : "viewport iphone-6",
+      "time" : {
+        "start" : 1646308336752,
+        "stop" : 1646308336769,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "visit https://the-internet.herokuapp.com/windows",
+      "time" : {
+        "start" : 1646308336769,
+        "stop" : 1646308340331,
+        "duration" : 3562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https://the-internet.herokuapp.com/windows&u=oeu1646308338534r0.3811211364187228&wxhr=true&t=1646308338544&f=298349752,318188263",
+      "time" : {
+        "start" : 1646308340330,
+        "stop" : 1646308340330,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1646308338534r0.3811211364187228&wxhr=true&t=1646308338544&f=298349752,318188263",
+      "time" : {
+        "start" : 1646308340331,
+        "stop" : 1646308340331,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .example > a",
+      "time" : {
+        "start" : 1646308340331,
+        "stop" : 1646308340350,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "invoke .removeAttr(target)",
+      "time" : {
+        "start" : 1646308340350,
+        "stop" : 1646308340357,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1646308340357,
+        "stop" : 1646308340637,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1646308338534r0.3811211364187228&wxhr=true&t=1646308340487&f=298349752,318188263",
+      "time" : {
+        "start" : 1646308340637,
+        "stop" : 1646308340637,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1646308340637,
+        "stop" : 1646308340637,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://the-internet.herokuapp.com/windows/new",
+      "time" : {
+        "start" : 1646308340637,
+        "stop" : 1646308340944,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1646308340943,
+        "stop" : 1646308340943,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **https://the-internet.herokuapp.com/windows/new** to include **/windows/new**",
+      "time" : {
+        "start" : 1646308340944,
+        "stop" : 1646308340944,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "https://the-internet.herokuapp.com/windows/new"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get h3",
+      "time" : {
+        "start" : 1646308340944,
+        "stop" : 1646308341185,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h3>** to have text **New Window**",
+      "time" : {
+        "start" : 1646308341185,
+        "stop" : 1646308341185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "New Window"
+      }, {
+        "name" : "expected",
+        "value" : "New Window"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1646308341371,
+        "stop" : 1646308342000,
+        "duration" : 629
+      },
+      "status" : "failed",
+      "statusMessage" : "`cy.task('ctrLogMessages')` failed with the following error:\n\nThe task 'ctrLogMessages' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+      "statusTrace" : "CypressError: `cy.task('ctrLogMessages')` failed with the following error:\n\nThe task 'ctrLogMessages' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task\n    at https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:162231:80\n    at tryCatcher (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (https://the-internet.herokuapp.com/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (https://the-internet.herokuapp.com/__cypress/tests?p=cypress/support/index.js:12485:14)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1298a7d0426c139f",
+      "name" : "browserTab.js:2022-03-03T11:52:21.402Z",
+      "source" : "1298a7d0426c139f.png",
+      "type" : "image/png",
+      "size" : 139790
+    }, {
+      "uid" : "cabc61fdb42a0746",
+      "name" : "video recording",
+      "source" : "cabc61fdb42a0746.mp4",
+      "type" : "video/mp4",
+      "size" : 1109933
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example to demonstrate the handling of new browser windows in cypress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "262abee5aeb843df.json",
+  "parameterValues" : [ ]
+}

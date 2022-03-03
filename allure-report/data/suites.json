@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "login to site...request",
+    "uid" : "22acd95e9e220e4f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1646308298256,
+      "stop" : 1646308300552,
+      "duration" : 2296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Run gremlins.js inside a cypress test",
+    "children" : [ {
+      "name" : "should run gremlins.js",
+      "uid" : "90f354c19a57fb61",
+      "parentUid" : "785a839a543f1123890013431c466d80",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646308316578,
+        "stop" : 1646308322057,
+        "duration" : 5479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "785a839a543f1123890013431c466d80"
+  }, {
+    "name" : "Example to demonstrate the handling of new browser windows in cypress",
+    "children" : [ {
+      "name" : "Handling new Browser Tab",
+      "uid" : "262abee5aeb843df",
+      "parentUid" : "2a9ade6fb14995a7a09794ed70e5f7cf",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646308336661,
+        "stop" : 1646308343169,
+        "duration" : 6508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2a9ade6fb14995a7a09794ed70e5f7cf"
+  } ]
+}

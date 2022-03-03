@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+      "children" : [ {
+        "name" : "login to site...request",
+        "uid" : "22acd95e9e220e4f",
+        "parentUid" : "07f8d64472550ded826b372eba4ea264",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646308298256,
+          "stop" : 1646308300552,
+          "duration" : 2296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should run gremlins.js",
+        "uid" : "90f354c19a57fb61",
+        "parentUid" : "07f8d64472550ded826b372eba4ea264",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646308316578,
+          "stop" : 1646308322057,
+          "duration" : 5479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Handling new Browser Tab",
+        "uid" : "262abee5aeb843df",
+        "parentUid" : "07f8d64472550ded826b372eba4ea264",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646308336661,
+          "stop" : 1646308343169,
+          "duration" : 6508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07f8d64472550ded826b372eba4ea264"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

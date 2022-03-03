@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Mar 03 17:21:38 IST 2022","Thu Mar 03 17:21:40 IST 2022","2296","","","","","","login to site...request",""
+"failed","Thu Mar 03 17:22:16 IST 2022","Thu Mar 03 17:22:23 IST 2022","6508","","Example to demonstrate the handling of new browser windows in cypress","","","","Handling new Browser Tab",""
+"failed","Thu Mar 03 17:21:56 IST 2022","Thu Mar 03 17:22:02 IST 2022","5479","","Run gremlins.js inside a cypress test","","","","should run gremlins.js",""

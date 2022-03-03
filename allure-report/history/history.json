@@ -1,0 +1,62 @@
+{
+  "f82833084563845943ebdaa2e1251fab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22acd95e9e220e4f",
+      "status" : "failed",
+      "statusDetails" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+      "time" : {
+        "start" : 1646308298256,
+        "stop" : 1646308300552,
+        "duration" : 2296
+      }
+    } ]
+  },
+  "23d4e26ec2c8059295c989e08a4162df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "262abee5aeb843df",
+      "status" : "failed",
+      "statusDetails" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+      "time" : {
+        "start" : 1646308336661,
+        "stop" : 1646308343169,
+        "duration" : 6508
+      }
+    } ]
+  },
+  "2b1c71e50cc2cee1841f137729b0351a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90f354c19a57fb61",
+      "status" : "failed",
+      "statusDetails" : "`cy.task('ctrLogFiles')` failed with the following error:\n\nThe task 'ctrLogFiles' was not handled in the plugins file. The following tasks are registered: writeAllureResults\n\nFix this in your plugins file here:\n/Users/gururaj/Documents/GitHub/cypress/cypress/plugins/index.js\n\nhttps://on.cypress.io/api/task",
+      "time" : {
+        "start" : 1646308316578,
+        "stop" : 1646308322057,
+        "duration" : 5479
+      }
+    } ]
+  }
+}

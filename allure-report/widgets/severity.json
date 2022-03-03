@@ -1,0 +1,31 @@
+[ {
+  "uid" : "262abee5aeb843df",
+  "name" : "Handling new Browser Tab",
+  "time" : {
+    "start" : 1646308336661,
+    "stop" : 1646308343169,
+    "duration" : 6508
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "22acd95e9e220e4f",
+  "name" : "login to site...request",
+  "time" : {
+    "start" : 1646308298256,
+    "stop" : 1646308300552,
+    "duration" : 2296
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "90f354c19a57fb61",
+  "name" : "should run gremlins.js",
+  "time" : {
+    "start" : 1646308316578,
+    "stop" : 1646308322057,
+    "duration" : 5479
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
