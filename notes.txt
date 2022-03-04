@@ -18,3 +18,8 @@ access UI http://127.0.0.1:52620/index.html
 =======
 confiure tresult free tool for reprorting 
 run as ---- node runner.js
+
+++++++++++++++++
+AXE plugin 
+https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#automating-a-whole-website
+

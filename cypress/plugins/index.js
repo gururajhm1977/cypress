@@ -30,6 +30,18 @@ const { lighthouse, prepareAudit } = require('cypress-audit');
 
 module.exports = (on, config) => {
   require('cypress-terminal-report/src/installLogsPrinter')(on);
+  on('task', {
+    log(message) {
+      console.log(message)
+
+      return null
+    },
+    table(message) {
+      console.table(message)
+
+      return null
+    }
+  })
 
   on('before:browser:launch', (browser = {}, launchOptions) => {
     prepareAudit(launchOptions);

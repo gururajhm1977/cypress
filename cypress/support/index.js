@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-axe'
 require('cypress-terminal-report/src/installLogsCollector')();
 import '@shelex/cypress-allure-plugin';
 // Alternatively you can use CommonJS syntax:
