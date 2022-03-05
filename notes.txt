@@ -23,3 +23,5 @@ run as ---- node runner.js
 AXE plugin 
 https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#automating-a-whole-website
 
++++++++++ monkey testing +++++
+https://css-tricks.com/intro-monkey-testing-gremlins-js/
