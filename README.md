@@ -8,7 +8,7 @@
 - [ ] Read data from fixtures
 - [ ] Adding tag to run test suites like smore, reg etc...
 - [ ] Allure report generation 
-- [ ] Lighthuse plugin for performance test
+- [ ] Lighthouse plugin for performance test to measure web page
 - [ ] Accessibility testing using Axe plugin
 - [ ] CI/CD using Circle CI 
 - [ ] Push test results to TRESULT https://www.tesults.com/docs/cypress
