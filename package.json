@@ -39,6 +39,7 @@
         "zone.js": "~0.10.2"
     },
     "devDependencies": {
+        "@bahmutov/cy-api": "^2.1.2",
         "@shelex/cypress-allure-plugin": "^2.26.5",
         "axe-core": "^4.4.1",
         "codelyzer": "^6.0.0",

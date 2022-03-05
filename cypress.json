@@ -1,5 +1,6 @@
 {
     "chromeWebSecurity": false,
+    "baseUrl": "https://api.realworld.io",
     "projectId": "js4s5e",
     "env": {
         "username": "demo",
@@ -8,6 +9,7 @@
     },
     "testFiles": [
         "login.js",
-        "xhrTest.js"
+        "xhrTest.js",
+        "apiTest1.js"
     ]
 }
