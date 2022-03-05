@@ -43,3 +43,6 @@ view all failing snapshots and their diffs.
 
 +++++ accessibility test +++++
 https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#the-result
+
+++++ githib actions +++++
+https://github.com/cypress-io/github-action#headless
