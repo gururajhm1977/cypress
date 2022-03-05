@@ -4,7 +4,7 @@ Run as below from CLI
 Cypress_tags=smoke,regression npx cypress run --env ENV=qa
 
 using sorry cypress account 
-npx currents run --parallel --record --key jglUqLVZIdZ1Mqv3 --ci-build-id cypress-test
+npx currents run --parallel --record --key <your accountID> --ci-build-id cypress-test
 
 // allure report 
 http://blog.geveo.com/Allure-Report-Integration-with-Cypress

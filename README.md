@@ -12,3 +12,4 @@
 - [ ] Accessibility testing using Axe plugin
 - [ ] CI/CD using Circle CI 
 - [ ] Push test results to TRESULT https://www.tesults.com/docs/cypress
+- [ ] Run parallel test suite using sorry cypress "is an open-source, free cypress tests dashboard that unlocks unlimited parallelization, test recordings, integration with Github, Slack and more"
