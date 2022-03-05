@@ -11,7 +11,7 @@
         "e2ecy": "cypress run",
         "cy:run": "cypress run",
         "e2e:headless": "cypress run",
-        "cy:open": "cypress open",
+        "cy:open": "./node_modules/.bin/cypress open",
         "e2e:chrome": "cypress run --browser chrome",
         "e2e:record": "cypress run --record",
         "cy:parallel": "cypress-parallel -s cy:run -t 2 -d cypress/integration",
