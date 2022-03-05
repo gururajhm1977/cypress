@@ -40,3 +40,6 @@ Reporter
 Run Cypress with --reporter cypress-image-snapshot/reporter in order to report snapshot diffs in 
 your test results. This can be helpful to use with --env failOnSnapshotDiff=false in order to quickly 
 view all failing snapshots and their diffs.
+
++++++ accessibility test +++++
+https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#the-result

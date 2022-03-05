@@ -21,6 +21,10 @@
         "prod:smoke:scripts": "cypress run --spec cypress/integration/*.js --env ENV=production --browser chrome",
         "allureReport": "cypress run --spec cypress/integration/*.js --env ENV=qa --browser chrome allure=true,allureResultsPath=allure-report"
     },
+    "nyc": {
+        "sourceMap": false,
+        "instrument": false
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/marmelab/gremlins.js"
@@ -41,8 +45,10 @@
     },
     "devDependencies": {
         "@bahmutov/cy-api": "^2.1.2",
+        "@cypress/code-coverage": "^3.9.12",
         "@shelex/cypress-allure-plugin": "^2.26.5",
         "axe-core": "^4.4.1",
+        "babel-plugin-istanbul": "^6.1.1",
         "codelyzer": "^6.0.0",
         "cypress": "^9.5.1",
         "cypress-audit": "^1.1.0",

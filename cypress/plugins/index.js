@@ -54,6 +54,8 @@ module.exports = (on, config) => {
   on('task', {
     lighthouse: lighthouse(),
   });
+  require('@cypress/code-coverage/task')(on, config)
+  on('file:preprocessor', require('@cypress/code-coverage/use-babelrc'))
   allureWriter(on, config);
   return config;
 };
