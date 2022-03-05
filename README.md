@@ -21,3 +21,4 @@
 - [ ] Run parallel test suite using sorry cypress 
     - "is an open-source, free cypress tests dashboard that unlocks unlimited parallelization,     
             test recordings, integration with Github, Slack.
+- [ ] Visual regression snapshot testing using cypress-image-snapshot

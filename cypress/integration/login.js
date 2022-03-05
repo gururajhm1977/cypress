@@ -12,6 +12,7 @@ TestFilters(['smoke', 'regression'], () => {
         it('login to site...', () => {
             //cy.visit(url);
             cy.visit("https://demo.opencart.com/admin/");
+            cy.matchImageSnapshot(`Homepage-Test`, { capture: 'fullPage' })
             cy.injectAxe()
             cy.get(login.username).type(Cypress.env("username"));
             cy.get(login.password).type(Cypress.env("password"));

@@ -20,7 +20,9 @@
 // eslint-disable-next-line no-unused-vars
 
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
-
+const {
+  addMatchImageSnapshotPlugin,
+} = require('cypress-image-snapshot/plugin');
 
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
@@ -29,6 +31,8 @@ module.exports = (on, config) => {
 const { lighthouse, prepareAudit } = require('cypress-audit');
 
 module.exports = (on, config) => {
+  addMatchImageSnapshotPlugin(on, config);
+
   require('cypress-terminal-report/src/installLogsPrinter')(on);
   on('task', {
     log(message) {
