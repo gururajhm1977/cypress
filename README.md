@@ -5,7 +5,8 @@
 - [ ] Monkey Testing with Gremlin.js 
     - runs with as little or as much control as you could need. 
     - It has a fairly low time cost for initial setup.
-- [ ] K6 API load test, Open source load testing tool and SaaS for engineering teams
+- [ ] K6 API load test, Spike test, Soak test, Stress test. K6 is Open source load testing tool and 
+        SaaS for engineering teams and A modern load testing tool built for developer happiness.
 - [ ] XHR Testing using cy.intercept
 - [ ] Read data from fixtures
 - [ ] Adding tag's to run test suites like smoke, regression etc...

@@ -46,3 +46,7 @@ https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility#the
 
 ++++ githib actions +++++
 https://github.com/cypress-io/github-action#headless
+https://github.com/cypress-io/github-action/tree/master/.github/workflows
+
+++++ interseting api test blog ++++++
+https://dev.to/muratkeremozcan/crud-api-testing-a-deployed-service-with-cypress-using-cy-api-spok-cypress-data-session-cypress-each-4mlg
