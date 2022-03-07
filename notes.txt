@@ -50,3 +50,9 @@ https://github.com/cypress-io/github-action/tree/master/.github/workflows
 
 ++++ interseting api test blog ++++++
 https://dev.to/muratkeremozcan/crud-api-testing-a-deployed-service-with-cypress-using-cy-api-spok-cypress-data-session-cypress-each-4mlg
+
+++++ sample app for API testing ++++++
+https://qaboxletstestcypresspracticesite.netlify.app/intercept.html
+
++++++ sorry cypress to host in render.com +++++
+https://dev.to/simonireilly/paralleling-cypress-with-sorry-cypress-on-render-4aj4
